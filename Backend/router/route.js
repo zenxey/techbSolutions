@@ -60,8 +60,6 @@ router.put('/api/customers/:id', (req, res) => {
   });
 });
 
-
-// Assuming you have an endpoint like this in your backend
 router.delete('/api/customers/:id', (req, res) => {
   const customerId = req.params.id;
   const query = 'DELETE FROM customers WHERE Customer_id = ?';
