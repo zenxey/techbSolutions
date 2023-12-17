@@ -1,0 +1,8 @@
+.custom-modal {
+    color: white;
+}
+
+.custom-modal .modal-content {
+    background-color: #343a40;
+    border: 1px solid white;
+}
